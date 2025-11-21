@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Dashboard | AutoAssist",
     description:
       "لوحة تحكم تنفيذية تعرض جودة الخدمة، تدفق المحادثات، والتكاملات في وقت حقيقي.",
-    url: "https://autoassist.example/dashboard",
+    url: "/dashboard",
     images: [
       {
         url: "/banners/banner-1.png",

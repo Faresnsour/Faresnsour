@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // خليها إذا تبغى تصدر الموقع
+  output: 'export',
+  basePath: '/AutoAssistsite',
+  assetPrefix: '/AutoAssistsite/',
   images: {
-    unoptimized: true, // هذا يوقف Image Optimization
+    unoptimized: true,
   },
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;
 

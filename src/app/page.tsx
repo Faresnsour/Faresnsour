@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AutoAssist | منصة ذكاء اصطناعي لخدمة العملاء",
     description: heroContent.description,
-    url: "https://autoassist.example",
+    url: "/",
     images: [
       { url: "/banners/banner-1.png", width: 1200, height: 630, alt: "AutoAssist" },
     ],

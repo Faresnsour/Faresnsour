@@ -15,7 +15,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://autoassist.example"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: {
     default: "AutoAssist | منصة ذكاء اصطناعي لخدمة العملاء",
     template: "%s | AutoAssist",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AutoAssist | منصة ذكاء اصطناعي لخدمة العملاء",
     description: heroContent.description,
-    url: "https://autoassist.example",
+    url: "/",
     locale: "ar",
     siteName: "AutoAssist",
     images: [
@@ -59,8 +59,8 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "AutoAssist",
-  url: "https://autoassist.example",
-  logo: "https://autoassist.example/logo.png",
+  url: "/",
+  logo: "/logo.png",
   sameAs: contactLinks
     .filter((link) => link.value.startsWith("http"))
     .map((link) => link.value),

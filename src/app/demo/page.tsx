@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Demo | AutoAssist",
     description:
       "جلسة حية توضح كيفية تدريب وربط AutoAssist مع أنظمتك وتشغيل الردود الفورية.",
-    url: "https://autoassist.example/demo",
+    url: "/demo",
     images: [
       {
         url: "/banners/banner-1.png",
